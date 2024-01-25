@@ -1,0 +1,119 @@
+body {
+    background-color: #FCFAF0;;
+}
+
+header {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    font-family: monospace;
+    font-size: 80px;
+    margin: 20px;
+    display: flex;
+    align-items: end;
+    justify-content: flex-end;
+}
+
+ nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+
+li a {
+    color: #FCFAF0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+}
+
+/* Grüne Buttons*/
+
+.pill {
+    background: #99B0B0;
+    width: 230px;
+    height: 80px;
+    font-size: 30px;
+    padding: 0.5em 1em;
+    border-radius: 3rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin: 10px;
+    transition-duration: 0.4s;
+}
+
+.pill:hover {
+    background: #698285;
+    color: #FCFAF0;
+}
+
+/* Impressum Seite */
+
+.impressum-text {
+    margin: 100px 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* Datenschutz Seite*/
+
+ .textblock {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 40px 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+ }
+
+ /* Responsive */
+
+@media only screen and (max-width: 500px) {
+
+    nav ul {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+header {
+    margin: 0;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 40px;
+    display: flex;
+    justify-items: center;
+}
+
+footer {
+    margin: 0;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+}
+
+.impressum-text {
+    margin: 30px;
+}
+
+.textblock {
+    margin: 30px;
+}
+
+}
